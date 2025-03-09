@@ -1,25 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jemustaj <jemustaj@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/09 21:43:39 by jemustaj          #+#    #+#             */
-/*   Updated: 2025/03/09 21:57:08 by jemustaj         ###   ########.fr       */
+/*   Created: 2025/03/09 22:12:42 by jemustaj          #+#    #+#             */
+/*   Updated: 2025/03/09 23:31:15 by jemustaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	main(int argc, char **argv)
+char	**ft_split(char *str, char separator) // change str to char const ?
 {
-	t_node	*a;
-	t_node	*b;
+	t_node	*dest;
 
-	if ((argc == 1) || (argv == 2 && argv[1][0] == NULL))
+	if (str == NULL || *str == '\0')
 		return (NULL);
-	if (argc == 2)
-		argv = ft_split(argv, ' ');
-	return (0);
+	1. calculate the size and malloc to dest;
+	dest = malloc(sizeof(
 }
