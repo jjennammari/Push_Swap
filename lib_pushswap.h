@@ -6,12 +6,12 @@
 /*   By: jemustaj <jemustaj@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 18:27:19 by jemustaj          #+#    #+#             */
-/*   Updated: 2025/03/08 22:18:12 by jemustaj         ###   ########.fr       */
+/*   Updated: 2025/03/09 21:48:48 by jemustaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIB_PUSHSWAP_H
-# define LIB_PUSHSWAP_H
+#ifndef PUSH_SWAP_H
+# define PUSH_SWAP_H
 
 # include <stdlib.h>
 # include <unistd.h>
@@ -24,6 +24,6 @@ typedef struct s_node
 	struct s_node	*prev;
 }	t_node;
 
-int	main(void);
+int	main(int argc, char **argv);
 
 #endif
